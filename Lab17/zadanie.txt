@@ -1,0 +1,34 @@
+
+Cel zadania:
+wyznaczenie najd³u¿szego mo¿liwego cyklu ruchów konika szachowego.
+Na planszy mog¹ wystêpowaæ przeszkody. Koñ nie mo¿e stan¹æ na jedno pole wiêcej ni¿ raz.
+
+Wejœcie algorytmu:
+wygl¹d(z przeszkodami) lub rozmiar (bez przeszkód) planszy, pozycja startowa.
+
+Przypomnienie:
+Koñ porusza siê w kszta³cie litery “L”. Najpierw 2 pola wzd³u¿ poziomej lub pionowej linii,
+a nastêpnie jedno pole “w bok” od tej linii - tworz¹c kszta³t litery “L”.
+
+Wyjœcie algorytmu:
+Plansza z numerami kolejnych ruchów ustawionych na odpowiadaj¹cych im polach.
+
+Dzia³anie algorytmu:
+Zastosujemy algorytm z nawrotami (ang. backtracking).
+W ka¿dym kroku algorytmu nale¿y:
+* Zaznaczyæ pole na którym jest algorytm jako u¿yte i dodaæ do aktualnego rozwi¹zania.
+* Wykonaæ krok w ka¿dym mo¿liwym kierunku (tylko nie zajête pola) i rekurencyjnie wywo³aæ algorytm.
+	* Jeœli warunek zakoñczenia algorytmu zosta³ osi¹gniêty to nale¿y zapisaæ rozwi¹zanie
+	  (jeœli jest lepsze ni¿ aktualnie znalezione).
+* Odznaczyæ pole, usun¹æ z aktualnego rozwi¹zania i wyjœæ z algorytmu (czyli powrót do poprzedniego pola)
+
+Uwaga ogólna:
+rozwi¹zanie mo¿e siê ró¿niæ od podanego w pliku z wynikami, ale musi pokrywaæ tê sam¹ liczbê pól
+(pod warunkiem ¿e jest prawid³owe).
+
+Punktacja:
+1p - wyœwietlenie planszy
+2p - napisanie algorytmu
+        W przypadku niedzia³aj¹cego rozwi¹zania prowadz¹cy mo¿e przyznaæ 1 punkt za prawid³owy schemat/pomys³.
+1p - obs³ugiwanie przypadku z przeszkodami
+1p - szybkie obslugiwanie duzych planszy (odkomentowany BigTestCase a main)
