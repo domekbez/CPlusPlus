@@ -1,0 +1,36 @@
+============= ETAP 1 ==============
+tworzenie obiektu unique
+zwalnianie pamieci
+tworzenie obiektu unique
+tworzenie obiektu unique
+zwalnianie pamieci
+zwalnianie pamieci
+============= ETAP 2 ==============
+tworzenie obiektu unique
+tworzenie obiektu unique
+zwalnianie pamieci
+zwalnianie pamieci
+============= ETAP 3 ==============
+tworzenie obiektu unique
+tworzenie obiektu unique
+Wszystko gra: 6.28
+zwalnianie pamieci
+zwalnianie pamieci
+tworzenie obiektu unique
+ints: 122  i b: 82
+zwalnianie pamieci
+tworzenie obiektu unique
+IsValid dziala ok
+zwalnianie pamieci
+============= ETAP 4 ==============
+tworzenie obiektu unique
+tworzenie obiektu unique
+tworzenie obiektu unique
+zwalnianie pamieci
+zwalnianie pamieci
+tworzenie obiektu unique
+tworzenie obiektu unique
+zwalnianie pamieci
+zwalnianie pamieci
+zwalnianie pamieci
+

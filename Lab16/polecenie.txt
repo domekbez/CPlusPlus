@@ -1,0 +1,45 @@
+Dzisiejszym zadaniem jest implementacja jednego ze smart pointerów obecnych w C++: unique_ptr. 
+
+Programiœci u¿ywaj¹cy nowych wersji C++(11 i nowsze) s¹ mocno zachêcani do porzucenia standardowych wskaŸników
+i u¿ywania w ich miejsce smart pointerów. Pomagaj¹ one w automatycznym zarz¹dzaniu pamiêci¹ i s¹ o wiele bezpieczniejsze.
+
+Jednym ze smart pointerów jest w³aœnie unique_ptr. nie da siê go skopiowaæ, dziêki czemu w ca³ym programie
+jest dok³adnie jeden wskaŸnik który posiada obiekt znajduj¹cy siê na stercie. W momencie gdy unique_ptr jest zwalniany
+(np by³ zmienn¹ lokaln¹ funkcji któr¹ w³aœnie opuszczamy) zwalnia te¿ on zasoby na które wskazuje.
+
+UWAGA: implementacja powinna byc w pliku unique.h (i ewentualnie unique.cpp)
+
+Etap 1 (1p)
+
+Stwórz szablonow¹ klasê unique. Jej zadaniem jest imitacja dzia³ania std::unique_ptr.
+Powinno daæ siê go stworzyæ przekazuj¹c do konstruktora zwyk³y wskaŸnik, lub konstruktorem bezparametrowym (pusty wskaŸnik). Zasoby na które wskazuje unique powinny byæ zwalniane gdy jest on niszczony.
+
+Niech konstruktor wypisuje na konsolê: “Tworzenie obiektu unique”, a destruktor:
+“Zwalnianie pamiêci”. Oczywiœcie tylko wtedy gdy rzeczywiœcie jakaœ pamiêæ jest zwalniana.
+
+Etap 2 (2p)
+
+Zastanów siê nad tym, czy twoja klasa powinna mieæ:
+Operator przypisania, (jeœli tak to jaki?)
+Konstruktor przyjmuj¹cy const & na unique
+Konstruktor przenosz¹cy
+
+Stwórz te, które uznasz za prawid³owe, a pozosta³e usuñ (domyœlne implementacje konstruktorów mo¿na usun¹æ tak:
+	unique() = delete;
+
+Pamiêtaj, ¿e niemo¿liwym musi byæ, aby dwa obiekty unique wskazywa³y na ten sam obszar pamiêci.
+
+
+Etap 3 (1p)
+
+Zaimplementuj sposób dostêpu do obiektu wskazywanego przez unique.
+Wskazówka: operator->(), operator*(), oraz wersje const.
+Przydatna mo¿e byæ funkcja analogiczna do std::unique_ptr::get().
+
+Zaimplementuj:
+Funkcjê IsValid. Powinna ona sprawdziæ, czy przekazany w parametrze unique wskazuje na prawid³owy obszar pamiêci
+i zwróciæ wartoœæ typu bool. Po wyjœciu z funkcji obiekt przekazany w parametrze MUSI byæ dalej funkcjonalny.
+
+Etap 4 (1p)
+Napisz funkcjê Bigger, która przyjmuje dwa obiekty unique. Jeœli jeden z nich jest wiêkszy od drugiego to jest on zwracany,
+a drugi obiekt jest usuwany. Jeœli s¹ one równe to ¿aden z obiektów nie jest usuwany, a zwracany jest pusty obiekt unique.
