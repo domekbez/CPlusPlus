@@ -1,0 +1,137 @@
+---------------ETAP I------------------
+CfKIErUL8W
+OYFEjtc
+Bs13d
+HS8
+D
+---------------ETAP II------------------
+lkyDJcC9C7 22 -- 12081
+     PFLF6 22 -- 7736
+eUjfTsC46C 22 -- 14849
+     l5aCg 22 -- 9691
+VTQhSJss9U 22 -- 11727
+     yFCzT 22 -- 5924
+xXw6FGjBOm 22 -- 9029
+     QPmCU 22 -- 11899
+eebb4JffQc 22 -- 8442
+     y71tQ 22 -- 10881
+
+   l3eK1lG 52 -- 10158
+   CkzkIBS 28 -- 7079
+   gOb2J9q 30 -- 5986
+   iCqTri5 52 -- 13968
+   wDvd9Hr 52 -- 11042
+   LdSSUk6 57 -- 5421
+   6JMnxUy 28 -- 7044
+   TrlYrvy 59 -- 11337
+   wubAmIU 45 -- 5738
+   wS2yzp8 39 -- 13567
+
+---------------ETAP III------------------
+lkyDJcC9C7 22 -- 14081
+     PFLF6 22 -- 9736
+eUjfTsC46C 22 -- 16849
+     l5aCg 22 -- 11691
+VTQhSJss9U 22 -- 13727
+     yFCzT 22 -- 7924
+xXw6FGjBOm 22 -- 11029
+     QPmCU 22 -- 13899
+eebb4JffQc 22 -- 10442
+     y71tQ 22 -- 12881
+   l3eK1lG 42 -- 10158
+   CkzkIBS 28 -- 7079
+   gOb2J9q 30 -- 5986
+   iCqTri5 42 -- 13968
+   wDvd9Hr 42 -- 11042
+   LdSSUk6 47 -- 5421
+   6JMnxUy 28 -- 7044
+   TrlYrvy 49 -- 11337
+   wubAmIU 35 -- 5738
+   wS2yzp8 29 -- 13567
+
+   gOb2J9q 30 -- 5986
+   LdSSUk6 57 -- 5421
+   wubAmIU 45 -- 5738
+
+---------------ETAP IV------------------
+1. Sum: 102259 Average: 10225.9
+2. Sum: 91340 Average: 9134
+3. Sum: 213599 Average: 10680
+4. Sum: 17145 Average: 5715
+--------------SORTING----------------
+eebb4JffQc 22 -- 8442
+eUjfTsC46C 22 -- 14849
+     l5aCg 22 -- 9691
+lkyDJcC9C7 22 -- 12081
+     PFLF6 22 -- 7736
+     QPmCU 22 -- 11899
+VTQhSJss9U 22 -- 11727
+xXw6FGjBOm 22 -- 9029
+     y71tQ 22 -- 10881
+     yFCzT 22 -- 5924
+
+   6JMnxUy 28 -- 7044
+   CkzkIBS 28 -- 7079
+   gOb2J9q 30 -- 5986
+   iCqTri5 52 -- 13968
+   l3eK1lG 52 -- 10158
+   LdSSUk6 57 -- 5421
+   TrlYrvy 59 -- 11337
+   wDvd9Hr 52 -- 11042
+   wS2yzp8 39 -- 13567
+   wubAmIU 45 -- 5738
+
+   6JMnxUy 28 -- 7044
+   CkzkIBS 28 -- 7079
+eebb4JffQc 22 -- 10442
+eUjfTsC46C 22 -- 16849
+   gOb2J9q 30 -- 5986
+   iCqTri5 42 -- 13968
+   l3eK1lG 42 -- 10158
+     l5aCg 22 -- 11691
+   LdSSUk6 47 -- 5421
+lkyDJcC9C7 22 -- 14081
+     PFLF6 22 -- 9736
+     QPmCU 22 -- 13899
+   TrlYrvy 49 -- 11337
+VTQhSJss9U 22 -- 13727
+   wDvd9Hr 42 -- 11042
+   wS2yzp8 29 -- 13567
+   wubAmIU 35 -- 5738
+xXw6FGjBOm 22 -- 11029
+     y71tQ 22 -- 12881
+     yFCzT 22 -- 7924
+
+   gOb2J9q 30 -- 5986
+   LdSSUk6 57 -- 5421
+   wubAmIU 45 -- 5738
+
+--------------ETAP V----------------
+team for the task was added
+team for the task was added
+team for the task was added
+task with given name already exists in map
+eebb4JffQc 22 -- 8442
+eUjfTsC46C 22 -- 14849
+     l5aCg 22 -- 9691
+lkyDJcC9C7 22 -- 12081
+     PFLF6 22 -- 7736
+     QPmCU 22 -- 11899
+VTQhSJss9U 22 -- 11727
+xXw6FGjBOm 22 -- 9029
+     y71tQ 22 -- 10881
+     yFCzT 22 -- 5924
+
+Number of people older than 20: 10
+eebb4JffQc 22 -- 9442
+eUjfTsC46C 22 -- 15849
+     l5aCg 22 -- 10691
+lkyDJcC9C7 22 -- 13081
+     PFLF6 22 -- 8736
+     QPmCU 22 -- 12899
+VTQhSJss9U 22 -- 12727
+xXw6FGjBOm 22 -- 10029
+     y71tQ 22 -- 11881
+     yFCzT 22 -- 6924
+
+Number of people older than 25: 0
